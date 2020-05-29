@@ -4,6 +4,14 @@ This repo about rx.js.
 
 There are some examples, and self-writing rx observables and operators
 
+## For beginners. RxJS - Полный курс за 1 час
+
+https://www.youtube.com/watch?v=gCwSVQO_PtY&t=710s
+
+## RxJS Примеры. Рисование на Canvas
+
+https://www.youtube.com/watch?v=ib9y6uJr6PQ
+
 ## Евгений Поздняков — RxJS: производительность и утечки памяти в большом приложении
 
 https://www.youtube.com/watch?v=7806msvJ1HE
