@@ -1,5 +1,8 @@
-// import * as React from 'react';
-// import ReactDOM from 'react-dom';
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+// import { Example1 } from 'canvas/example-1';
+// import { SwitchMapExample } from 'operators/switchMap';
+import { MergeMapExample } from 'operators/mergeMap';
 
 // import 'interval/Case1';
 // import { Input } from 'simple/part3';
@@ -7,13 +10,13 @@
 // import { ExampleOfState } from 'simple/part5';
 // import { Button } from 'operators/map';
 // import 'observable/custom/Default-2';
-import './operators/Map';
+// import './operators/Map';
 
-// ReactDOM.render(
-//     <div>
-//         <ExampleOfState />
-//     </div>,
-//     document.getElementById('root')
-// );
+ReactDOM.render(
+    <div>
+        <MergeMapExample />
+    </div>,
+    document.getElementById('root')
+);
 
 // import './index.scss';
