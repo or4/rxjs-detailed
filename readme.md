@@ -8,6 +8,10 @@ There are some examples, and self-writing rx observables and operators
 
 https://www.youtube.com/watch?v=gCwSVQO_PtY&t=710s
 
+## Оснонвые операторы. RxJS 6 - Распространенные ошибки. Как НЕ отстрелить себе ногу
+
+https://www.youtube.com/watch?v=my6-qDYSk7E
+
 ## RxJS Примеры. Рисование на Canvas
 
 https://www.youtube.com/watch?v=ib9y6uJr6PQ

@@ -2,7 +2,7 @@ import * as React from 'react';
 import ReactDOM from 'react-dom';
 // import { Example1 } from 'canvas/example-1';
 // import { SwitchMapExample } from 'operators/switchMap';
-import { MergeMapExample } from 'operators/mergeMap';
+// import { MergeMapExample } from 'operators/mergeMap';
 
 // import 'interval/Case1';
 // import { Input } from 'simple/part3';
@@ -12,11 +12,12 @@ import { MergeMapExample } from 'operators/mergeMap';
 // import 'observable/custom/Default-2';
 // import './operators/Map';
 
-ReactDOM.render(
-    <div>
-        <MergeMapExample />
-    </div>,
-    document.getElementById('root')
-);
+// import './operators/mergeMap-2';
+// import './operators/concatMap-2';
+// import './observable/zip-2';
+// import './operators/pause';
+import './operators/share-2';
+
+ReactDOM.render(<div />, document.getElementById('root'));
 
 // import './index.scss';
