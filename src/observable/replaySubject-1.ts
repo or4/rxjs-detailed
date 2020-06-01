@@ -1,7 +1,7 @@
-import { interval, Subject } from 'rxjs';
+import { interval, ReplaySubject } from 'rxjs';
 import { take } from 'rxjs/operators';
 
-const s$ = new Subject();
+const s$ = new ReplaySubject(1000);
 
 interval(500).subscribe(i => s$.next(i));
 
@@ -11,4 +11,4 @@ clock$.subscribe(console.log);
 
 setTimeout(() => {
     clock$.subscribe(console.log);
-}, 2000);
+}, 5000);
