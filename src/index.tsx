@@ -12,13 +12,17 @@ import ReactDOM from 'react-dom';
 // import 'observable/custom/Default-2';
 // import './operators/Map';
 // import './observable/zip-2';
-// import './observable/replaySubject-1';
+
+// import './observable/subject-0';
+import './observable/replaySubject-2';
+// import './observable/behaviourSubject-2';
+// import './observable/asyncSubject-0';
 
 // import './operators/mergeMap-2';
 // import './operators/concatMap-2';
 // import './operators/pause';
-import './operators/share-3';
-// import './operators/shareReplay-1';
+// import './operators/share-3';
+// import './operators/shareReplay-2';
 
 ReactDOM.render(<div />, document.getElementById('root'));
 
